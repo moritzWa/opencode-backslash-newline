@@ -1,0 +1,42 @@
+{
+  "name": "opencode-backslash-newline",
+  "version": "0.1.0",
+  "description": "OpenCode TUI plugin: \\ then Enter inserts a newline in the prompt, like Claude Code.",
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "opencode-tui",
+    "tui",
+    "newline",
+    "keybind",
+    "claude-code"
+  ],
+  "oc-plugin": [
+    "tui"
+  ],
+  "exports": {
+    "./tui": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "author": {
+    "name": "Moritz Wallawitsch",
+    "url": "https://github.com/moritzWa"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moritzWa/opencode-backslash-newline.git"
+  },
+  "homepage": "https://github.com/moritzWa/opencode-backslash-newline#readme",
+  "bugs": {
+    "url": "https://github.com/moritzWa/opencode-backslash-newline/issues"
+  },
+  "engines": {
+    "opencode": ">=1.18.27"
+  }
+}
